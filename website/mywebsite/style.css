@@ -1,0 +1,350 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body stretches to full viewport height */
+    /*background-image: url('background.jpg');*/
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover; /* Makes the background cover the entire viewport */
+    background-position: center; /* Centers the background image */
+    
+}
+
+/* Main wrapper */
+.wrapper {
+    flex: 1; /* Allows the main content to grow and fill available space */
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Navigation styling */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+/* Main content styling */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    flex: 1; /* Makes the main content area grow to fill available space */
+}
+
+/* Left section styling */
+.left {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.left h3 {
+    font-size: 40px;
+    color: #666;
+}
+
+.left h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #333; /* Ensures consistency with the body text color */
+    letter-spacing: 3px;
+}
+
+/* Right section styling */
+.right {
+    flex: 1;
+    text-align: right;
+}
+
+.right img {
+    width: 300px; /* Set your desired width */
+    height: auto; /* Keeps the aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* About Section Styling */
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px; /* Increase padding for more spacing */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.leftabt {
+    flex: 1; /* Controls the width ratio for the left section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 400px; /* Increased size for the image */
+    border-radius: 10%;
+    height: 500px;
+    margin-right: 300px;
+}
+
+.rightabt {
+    flex: 2; /* Controls the width ratio for the right section */
+}
+
+.about-details {
+    max-width: 600px;
+}
+
+.about-details h2 {
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.about-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-details li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+/* Styling for Education Section */
+.edurow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.educol1, .educol2, .educol3 {
+    flex: 1;
+    padding: 10px;
+    min-width: 250px; /* Sets a minimum width for larger boxes */
+    padding: 10px;
+}
+
+.education-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
+
+.column {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Container for Contact Section */
+.contact-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Heading */
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Contact Information Box */
+.contact-info {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+
+/* Map Container Styling */
+.map-container {
+    margin-top: 30px;
+}
+
+.map-container h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: text-decoration 0.3s ease; /* Smooth transition for hover effect */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Social Icons Image Styling */
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons a:hover img {
+    filter: none; /* Original color on hover */
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        padding: 0;
+    }
+
+    .left h1 {
+        font-size: 36px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+/* Additional media query for extra small devices */
+@media (max-width: 480px) {
+    .left h1 {
+        font-size: 28px;
+    }
+
+    .left p {
+        font-size: 18px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
